@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <!-- Bootstrap core CSS     -->
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('public/assets/css/bootstrap.min.css')}}" rel="stylesheet" />
     <!--  Material Dashboard CSS    -->
-    <link href="{{asset('assets/css/material-dashboard.css')}}" rel="stylesheet"/>
+    <link href="{{asset('public/assets/css/material-dashboard.css')}}" rel="stylesheet"/>
     <!-- Bootstrap rtl CSS - from (http://github.com/morteza) -->
     @if(app()->getLocale() == 'ar')
-        <link rel="stylesheet" href="{{asset('assets/css/bootstrap-rtl.min.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/rtl.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap-rtl.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/rtl.css')}}">
     @endif
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
     <!--  Material Dashboard CSS    -->
-    <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet" />
+    <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet" />
 
     <title>{{config('app.name')}} - {{__('auth.login')}}</title>
 </head>
@@ -29,7 +29,7 @@
         <div class="col-md-6">
             <div class="text-center bg-white border-rounded box-shadow">
                 {{--<!--login form-->--}}
-                <img src="{{asset('logo.jpeg')}}" class="mt-50" width="200" height="150" alt="">
+                <img src="{{asset('public/logo.jpeg')}}" class="mt-50" width="200" height="150" alt="">
                 @if (session('error'))
                     <div class="alert alert-danger" role="alert">
                         {{ session('error') }}
@@ -75,23 +75,23 @@
 
 
 <!--   Core JS Files   -->
-<script src="{{asset('assets/js/jquery-3.1.0.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/material.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/assets/js/jquery-3.1.0.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/assets/js/material.min.js')}}" type="text/javascript"></script>
 
 <!--  Charts Plugin -->
-<script src="{{asset('assets/js/chartist.min.js')}}"></script>
+<script src="{{asset('public/assets/js/chartist.min.js')}}"></script>
 
 <!--  Notification Plugin    -->
-<script src="{{asset('assets/js/bootstrap-notify.js')}}"></script>
+<script src="{{asset('public/assets/js/bootstrap-notify.js')}}"></script>
 
 <!--  Google Maps Plugin    -->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 <!-- Material Dashboard javascript methods -->
-<script src="{{asset('assets/js/material-dashboard.js')}}"></script>
+<script src="{{asset('public/assets/js/material-dashboard.js')}}"></script>
 
-<script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('public/assets/js/custom.js')}}"></script>
 
 <script>
     $(function () {
