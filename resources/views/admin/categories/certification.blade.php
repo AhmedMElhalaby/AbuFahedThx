@@ -80,7 +80,7 @@
 
                                             </p>
                                             <p style="">
-                                                <img src="{{asset('3aref.png')}}" style="width: 50px;height: 130px;padding-top: 0px" alt="">
+                                                <img src="{{asset('public/3aref.png')}}" style="width: 50px;height: 130px;padding-top: 0px" alt="">
                                             </p>
                                         </td>
                                         <td style="width: 35%;height: 150px;padding-right: 100px">

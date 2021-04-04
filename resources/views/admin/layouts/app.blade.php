@@ -3,8 +3,8 @@
 <html lang="en" data-color="{{ config('app.color') }}">
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('logo.png')}}" />
-    <link rel="icon" type="image/png" href="{{asset('logo.png')}}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('public/logo.png')}}" />
+    <link rel="icon" type="image/png" href="{{asset('public/logo.png')}}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -16,21 +16,21 @@
     <meta name="viewport" content="width=device-width" />
 
     <!-- Bootstrap core CSS     -->
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('public/assets/css/bootstrap.min.css')}}" rel="stylesheet" />
 
 
     <!--  Material Dashboard CSS    -->
-    <link href="{{asset('assets/css/material-dashboard.css')}}" rel="stylesheet"/>
+    <link href="{{asset('public/assets/css/material-dashboard.css')}}" rel="stylesheet"/>
     <!-- Bootstrap rtl CSS - from (http://github.com/morteza) -->
     @if(app()->getLocale() == 'ar')
-        <link rel="stylesheet" href="{{asset('assets/css/bootstrap-rtl.min.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/rtl.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap-rtl.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/rtl.css')}}">
     @endif
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
-    <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet" />
+    <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet" />
     <style>
         .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
             @if(config('app.color') == 'purple')
@@ -58,7 +58,7 @@
 
 <div class="wrapper">
 
-    <div class="sidebar" data-color="{{ config('app.color') }}" data-image="{{asset('assets/img/sidebar-1.jpg')}}">
+    <div class="sidebar" data-color="{{ config('app.color') }}" data-image="{{asset('public/assets/img/sidebar-1.jpg')}}">
         <!--
             Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
@@ -66,7 +66,7 @@
         -->
 
         <div class="logo" style="text-align: center">
-            <img onclick="window.location ='{{url('/admin')}}'" src="{{asset('logo.png')}}" width="150" height="90" style="cursor: pointer" alt="">
+            <img onclick="window.location ='{{url('/admin')}}'" src="{{asset('public/logo.png')}}" width="150" height="90" style="cursor: pointer" alt="">
 
         </div>
 
@@ -143,23 +143,23 @@
 </body>
 
 <!--   Core JS Files   -->
-<script src="{{asset('assets/js/jquery-3.1.0.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('assets/js/material.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/assets/js/jquery-3.1.0.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/assets/js/material.min.js')}}" type="text/javascript"></script>
 
 <!--  Charts Plugin -->
-<script src="{{asset('assets/js/chartist.min.js')}}"></script>
+<script src="{{asset('public/assets/js/chartist.min.js')}}"></script>
 
 <!--  Notification Plugin    -->
-<script src="{{asset('assets/js/bootstrap-notify.js')}}"></script>
+<script src="{{asset('public/assets/js/bootstrap-notify.js')}}"></script>
 
 <!--  Google Maps Plugin    -->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 <!-- Material Dashboard javascript methods -->
-<script src="{{asset('assets/js/material-dashboard.js')}}"></script>
+<script src="{{asset('public/assets/js/material-dashboard.js')}}"></script>
 
-<script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('public/assets/js/custom.js')}}"></script>
 
 <script>
     $(function () {
