@@ -24,8 +24,6 @@
                         <th>{{__('Certification.name')}} </th>
                         <th>{{__('Category.category')}}</th>
                         <th>{{__('Certification.civil_registry')}}</th>
-                        <th>{{__('Certification.level')}}</th>
-                        <th>{{__('Certification.is_passed')}}</th>
                         <th><a href="#" onclick="AdvanceSearch()">{{__('admin.advance_search')}} <i id="advance_search_caret" class="fa fa-caret-down"></i></a></th>
                     </thead>
                     <tbody>
@@ -55,18 +53,6 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div class="form-group" style="margin:0;padding: 0 ">
-                                        <label for="level" class="hidden"></label>
-                                        <input type="text" name="level" style="margin: 0;padding: 0" id="level" placeholder="{{__('Certification.level')}}" class="form-control" value="{{app('request')->input('level')}}">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-group" style="margin:0;padding: 0 ">
-                                        <label for="is_passed" class="hidden"></label>
-                                        <input type="text" name="is_passed" style="margin: 0;padding: 0" id="level" placeholder="{{__('Certification.is_passed')}}" class="form-control" value="{{app('request')->input('is_passed')}}">
-                                    </div>
-                                </td>
-                                <td>
                                     <input type="submit" class="btn btn-sm btn-primary" style="margin: 0;" value="{{__('admin.search')}}">
                                 </td>
                             </form>
@@ -76,8 +62,6 @@
                         <td>{{$item->name}}</td>
                         <td>{{$item->category->name}}</td>
                         <td>{{$item->civil_registry}}</td>
-                        <td>{{$item->level}}</td>
-                        <td>{{$item->is_passed}}</td>
                         <td class="text-primary">
                             <a href="{{url($redirect.'/'.$item->id.'/edit')}}" data-toggle="tooltip" data-placement="bottom" title="{{__('admin.edit')}}" class="fs-20"><i class="fa fa-edit"></i></a>
                             <a href="#" class="fs-20" data-toggle="modal" data-target="#delete" onclick="document.getElementById('del_name').innerHTML = '{{$item->name}}';document.getElementById('id').value = '{{$item->id}}'"><i class="fa fa-trash" data-toggle="tooltip" data-placement="bottom" title="{{__('admin.delete')}}"></i></a>

@@ -41,44 +41,9 @@
                                         @endforeach
                                     </select>
                                 </div>
-                                @if ($errors->has('name'))
+                                @if ($errors->has('category_id'))
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('name') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form-group label-floating">
-                                    <label for="status" class="control-label">{{__('Certification.status')}} *</label>
-                                    <input type="text" id="status" name="status" required class="form-control {{ $errors->has('status') ? ' is-invalid' : '' }}" value="{{old('status')}}">
-                                </div>
-                                @if ($errors->has('status'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('status') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group label-floating">
-                                    <label for="level" class="control-label">{{__('Certification.level')}} *</label>
-                                    <input type="text" id="level" name="level" required class="form-control {{ $errors->has('level') ? ' is-invalid' : '' }}" value="{{old('level')}}">
-                                </div>
-                                @if ($errors->has('level'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('level') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group label-floating">
-                                    <label for="is_passed" class="control-label">{{__('Certification.is_passed')}} *</label>
-                                    <input type="text" id="is_passed" name="is_passed" required class="form-control {{ $errors->has('is_passed') ? ' is-invalid' : '' }}" value="{{old('is_passed')}}">
-                                </div>
-                                @if ($errors->has('is_passed'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('is_passed') }}</strong>
+                                        <strong>{{ $errors->first('category_id') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -92,30 +57,6 @@
                                 @if ($errors->has('details'))
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('details') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group label-floating">
-                                    <label for="period_from" class="control-label">{{__('Certification.period_from')}}  *</label>
-                                    <input type="text" id="period_from" name="period_from" required class="form-control {{ $errors->has('period_from') ? ' is-invalid' : '' }}" value="{{old('period_from')}}">
-                                </div>
-                                @if ($errors->has('period_from'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('period_from') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group label-floating">
-                                    <label for="period_to" class="control-label">{{__('Certification.period_to')}}  *</label>
-                                    <input type="text" id="period_to" name="period_to" required class="form-control {{ $errors->has('period_to') ? ' is-invalid' : '' }}" value="{{old('period_to')}}">
-                                </div>
-                                @if ($errors->has('period_to'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('period_to') }}</strong>
                                     </span>
                                 @endif
                             </div>
