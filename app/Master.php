@@ -372,6 +372,16 @@ class Master
         $string = str_replace('{','<span style="font-family: Arial,serif">{</span>',$string);
         $string = str_replace(']','<span style="font-family: Arial,serif">]</span>',$string);
         $string = str_replace('[','<span style="font-family: Arial,serif">[</span>',$string);
+        $string = str_replace('1','<span style="font-family: Arial,serif">1</span>',$string);
+        $string = str_replace('2','<span style="font-family: Arial,serif">2</span>',$string);
+        $string = str_replace('3','<span style="font-family: Arial,serif">3</span>',$string);
+        $string = str_replace('4','<span style="font-family: Arial,serif">4</span>',$string);
+        $string = str_replace('5','<span style="font-family: Arial,serif">5</span>',$string);
+        $string = str_replace('6','<span style="font-family: Arial,serif">6</span>',$string);
+        $string = str_replace('7','<span style="font-family: Arial,serif">7</span>',$string);
+        $string = str_replace('8','<span style="font-family: Arial,serif">8</span>',$string);
+        $string = str_replace('9','<span style="font-family: Arial,serif">9</span>',$string);
+        $string = str_replace('0','<span style="font-family: Arial,serif">0</span>',$string);
         return $string;
     }
 }
