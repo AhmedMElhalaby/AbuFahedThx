@@ -66,7 +66,7 @@
 
                     </p>
                     <p style="">
-                        <img src="{{asset('public/aref.png')}}" style="width: 50px;height: 130px;padding-top: 0px" alt="">
+{{--                        <img src="{{asset('public/aref.png')}}" style="width: 50px;height: 130px;padding-top: 0px" alt="">--}}
                     </p>
 
                 </td>
