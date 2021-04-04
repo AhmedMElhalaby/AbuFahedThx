@@ -1,0 +1,667 @@
+h1,h2,h3,h4,h5,h6,p,a,span,label,input,.tooltip,button,select,option,.alert,textarea,th,td{
+    font-family: 'Cairo', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-weight: 600;
+}
+#advance_search{
+    display: none;
+}
+.submit-btn .btn{
+    float: right;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.border-rounded{
+    border-radius: 20px !important;
+}
+.box-shadow{
+    box-shadow: 0px 15px 40px #b3b3b3;
+}
+.mt-100{
+    margin-top: 100px !important;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+.mx-50{
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+.mb-50{
+    margin-bottom: 50px !important;
+}
+.px-50{
+    padding: 0 50px 0 50px !important;
+}
+.p-10{
+  padding: 10px !important;
+}
+.mx-10{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+.form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label{
+    right: auto !important;
+}
+.badge-primary{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin-top: 0;
+}
+.search label,.search input{
+    color: #fff !important;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    color: #fff !important;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.pagination {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.pagination-div{
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    transition: background 0.5s ease;
+}
+html[data-color="blue"] ::-webkit-scrollbar-thumb {
+    background: rgba(0, 188, 212, 0.8);
+}
+html[data-color="purple"] ::-webkit-scrollbar-thumb{
+    background:rgba(148, 34, 116, 0.8);
+}
+html[data-color="green"] ::-webkit-scrollbar-thumb{
+    background:rgba(76, 175, 80, 0.8);
+}
+html[data-color="dark-green"] ::-webkit-scrollbar-thumb{
+    background:rgba(0, 100, 0, 0.8);
+}
+html[data-color="orange"] ::-webkit-scrollbar-thumb{
+    background:rgba(255, 152, 0, 0.8);
+}
+html[data-color="red"] ::-webkit-scrollbar-thumb{
+    background:rgba(244, 67, 54, 0.8);
+}
+html[data-color="green-blue"] ::-webkit-scrollbar-thumb{
+    background:rgba(0, 162, 147, 0.8);
+}
+html[data-color="brown"] ::-webkit-scrollbar-thumb{
+    background:rgba(219, 108, 0, 0.8);
+}
+html[data-color="dark-blue"] ::-webkit-scrollbar-thumb{
+    background:rgba(75, 100, 175, 0.8);
+}
+
+
+html[data-color="blue"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(0, 188, 212);
+}
+html[data-color="purple"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(148, 34, 116);
+}
+html[data-color="green"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(76, 175, 80);
+}
+html[data-color="green-blue"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(0, 162, 147);
+}
+html[data-color="dark-green"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(0, 100, 0);
+}
+html[data-color="orange"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(255, 152, 0);
+}
+html[data-color="red"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(244, 67, 54);
+}
+html[data-color="brown"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] ::-webkit-scrollbar-thumb:hover{
+    background:rgb(75, 100, 175);
+}
+/**************************************************/
+
+html[data-color="blue"] .btn.btn-primary,html[data-color="blue"]  .btn.btn-primary:hover,html[data-color="blue"]  .btn.btn-primary:focus,html[data-color="blue"]  .btn.btn-primary:active,html[data-color="blue"]  .btn.btn-primary.active,html[data-color="blue"]  .btn.btn-primary:active:focus,html[data-color="blue"]  .btn.btn-primary:active:hover,html[data-color="blue"]  .btn.btn-primary.active:focus,html[data-color="blue"]  .btn.btn-primary.active:hover,html[data-color="blue"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="blue"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="blue"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(0, 188, 212);
+    box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+html[data-color="purple"] .btn.btn-primary,html[data-color="purple"]  .btn.btn-primary:hover,html[data-color="purple"]  .btn.btn-primary:focus,html[data-color="purple"]  .btn.btn-primary:active,html[data-color="purple"]  .btn.btn-primary.active,html[data-color="purple"]  .btn.btn-primary:active:focus,html[data-color="purple"]  .btn.btn-primary:active:hover,html[data-color="purple"]  .btn.btn-primary.active:focus,html[data-color="purple"]  .btn.btn-primary.active:hover,html[data-color="purple"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="purple"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="purple"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="purple"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="purple"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="purple"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="purple"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(148, 34, 116);
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+html[data-color="green"] .btn.btn-primary,html[data-color="green"]  .btn.btn-primary:hover,html[data-color="green"]  .btn.btn-primary:focus,html[data-color="green"]  .btn.btn-primary:active,html[data-color="green"]  .btn.btn-primary.active,html[data-color="green"]  .btn.btn-primary:active:focus,html[data-color="green"]  .btn.btn-primary:active:hover,html[data-color="green"]  .btn.btn-primary.active:focus,html[data-color="green"]  .btn.btn-primary.active:hover,html[data-color="green"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="green"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="green"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="green"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="green"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="green"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="green"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(76, 175, 80);
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+html[data-color="green-blue"] .btn.btn-primary,html[data-color="green-blue"]  .btn.btn-primary:hover,html[data-color="green-blue"]  .btn.btn-primary:focus,html[data-color="green-blue"]  .btn.btn-primary:active,html[data-color="green-blue"]  .btn.btn-primary.active,html[data-color="green-blue"]  .btn.btn-primary:active:focus,html[data-color="green-blue"]  .btn.btn-primary:active:hover,html[data-color="green-blue"]  .btn.btn-primary.active:focus,html[data-color="green-blue"]  .btn.btn-primary.active:hover,html[data-color="green-blue"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="green-blue"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="green-blue"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="green-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="green-blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="green-blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="green-blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(0, 162, 147);
+    box-shadow: 0 12px 20px -10px rgba(0, 162, 147, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 162, 147, 0.2);
+}
+html[data-color="dark-green"] .btn.btn-primary,html[data-color="dark-green"]  .btn.btn-primary:hover,html[data-color="dark-green"]  .btn.btn-primary:focus,html[data-color="dark-green"]  .btn.btn-primary:active,html[data-color="dark-green"]  .btn.btn-primary.active,html[data-color="dark-green"]  .btn.btn-primary:active:focus,html[data-color="dark-green"]  .btn.btn-primary:active:hover,html[data-color="dark-green"]  .btn.btn-primary.active:focus,html[data-color="dark-green"]  .btn.btn-primary.active:hover,html[data-color="dark-green"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="dark-green"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="dark-green"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="dark-green"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="dark-green"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="dark-green"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="dark-green"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(0, 100, 0);
+    box-shadow: 0 12px 20px -10px rgba(0, 100, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 100, 0, 0.2);
+}
+html[data-color="orange"] .btn.btn-primary,html[data-color="orange"]  .btn.btn-primary:hover,html[data-color="orange"]  .btn.btn-primary:focus,html[data-color="orange"]  .btn.btn-primary:active,html[data-color="orange"]  .btn.btn-primary.active,html[data-color="orange"]  .btn.btn-primary:active:focus,html[data-color="orange"]  .btn.btn-primary:active:hover,html[data-color="orange"]  .btn.btn-primary.active:focus,html[data-color="orange"]  .btn.btn-primary.active:hover,html[data-color="orange"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="orange"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="orange"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="orange"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="orange"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="orange"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="orange"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(255, 152, 0);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+html[data-color="red"] .btn.btn-primary,html[data-color="red"]  .btn.btn-primary:hover,html[data-color="red"]  .btn.btn-primary:focus,html[data-color="red"]  .btn.btn-primary:active,html[data-color="red"]  .btn.btn-primary.active,html[data-color="red"]  .btn.btn-primary:active:focus,html[data-color="red"]  .btn.btn-primary:active:hover,html[data-color="red"]  .btn.btn-primary.active:focus,html[data-color="red"]  .btn.btn-primary.active:hover,html[data-color="red"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="red"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="red"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="red"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="red"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="red"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="red"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(244, 67, 54);
+    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+html[data-color="brown"] .btn.btn-primary,html[data-color="brown"]  .btn.btn-primary:hover,html[data-color="brown"]  .btn.btn-primary:focus,html[data-color="brown"]  .btn.btn-primary:active,html[data-color="brown"]  .btn.btn-primary.active,html[data-color="brown"]  .btn.btn-primary:active:focus,html[data-color="brown"]  .btn.btn-primary:active:hover,html[data-color="brown"]  .btn.btn-primary.active:focus,html[data-color="brown"]  .btn.btn-primary.active:hover,html[data-color="brown"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="brown"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="brown"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="brown"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="brown"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="brown"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="brown"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(219, 108, 0);
+    box-shadow: 0 12px 20px -10px rgba(219, 108, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(219, 108, 0, 0.2);
+}
+html[data-color="dark-blue"] .btn.btn-primary,html[data-color="dark-blue"]  .btn.btn-primary:hover,html[data-color="dark-blue"]  .btn.btn-primary:focus,html[data-color="dark-blue"]  .btn.btn-primary:active,html[data-color="dark-blue"]  .btn.btn-primary.active,html[data-color="dark-blue"]  .btn.btn-primary:active:focus,html[data-color="dark-blue"]  .btn.btn-primary:active:hover,html[data-color="dark-blue"]  .btn.btn-primary.active:focus,html[data-color="dark-blue"]  .btn.btn-primary.active:hover,html[data-color="dark-blue"]  .open > .btn.btn-primary.dropdown-toggle,html[data-color="dark-blue"]  .open > .btn.btn-primary.dropdown-toggle:focus,html[data-color="dark-blue"]  .open > .btn.btn-primary.dropdown-toggle:hover,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:hover,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:focus,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:focus,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary:active:hover,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:focus,html[data-color="dark-blue"]  .navbar .navbar-nav > li > a.btn.btn-primary.active:hover,html[data-color="dark-blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle,html[data-color="dark-blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus,html[data-color="dark-blue"]  .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover{
+    background:rgb(75, 100, 175);
+    box-shadow: 0 12px 20px -10px rgba(75, 100, 175, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(75, 100, 175, 0.2);
+}
+
+/*****************************************************/
+html[data-color="purple"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #952173, #952173), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="purple"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(148, 34, 116);
+}
+html[data-color="blue"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #26c6da, #00acc1), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="blue"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(0, 188, 212);
+}
+html[data-color="green"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #66bb6a, #43a047), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="green"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(76, 175, 80);
+}
+html[data-color="green-blue"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #00c7b7, #00A293), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="green-blue"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(0, 162, 147);
+}
+html[data-color="dark-green"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #43a047, darkgreen), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="dark-green"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(0, 100, 0);
+}
+html[data-color="orange"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #ffa726, #fb8c00), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="orange"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(255, 152, 0);
+}
+html[data-color="red"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #ef5350, #e53935), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="red"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(244, 67, 54);
+}
+html[data-color="brown"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #DB6C00, #DB6C00), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="brown"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] .form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #4B64AF, #4B64AF), linear-gradient(#D2D2D2, #D2D2D2);
+}
+html[data-color="dark-blue"] .form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(75, 100, 175);
+}
+/***************************************/
+html[data-color="purple"] .text-primary {
+    color: rgb(148, 34, 116);
+}
+html[data-color="blue"] .text-primary {
+    color: rgb(0, 188, 212);
+}
+html[data-color="green"] .text-primary {
+    color: rgb(76, 175, 80);
+}
+html[data-color="green-blue"] .text-primary {
+    color: rgb(0, 162, 147);
+}
+html[data-color="dark-green"] .text-primary {
+    color: rgb(0, 100, 0);
+}
+html[data-color="orange"] .text-primary {
+    color:rgb(255, 152, 0);
+}
+html[data-color="red"] .text-primary {
+    color: rgb(244, 67, 54);
+}
+html[data-color="brown"] .text-primary {
+    color: rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] .text-primary {
+    color: rgb(75, 100, 175);
+}
+/***************************************/
+html[data-color="purple"] a {
+    color: rgb(148, 34, 116);
+}
+html[data-color="blue"] a {
+    color: rgb(0, 188, 212);
+}
+html[data-color="green"] a {
+    color: rgb(76, 175, 80);
+}
+html[data-color="green-blue"] a {
+    color: rgb(0, 162, 147);
+}
+html[data-color="dark-green"] a {
+    color: rgb(0, 100, 0);
+}
+html[data-color="orange"] a {
+    color:rgb(255, 152, 0);
+}
+html[data-color="red"] a {
+    color: rgb(244, 67, 54);
+}
+html[data-color="brown"] a {
+    color: rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] a {
+    color: rgb(75, 100, 175);
+}
+/************************************************************************************/
+
+.search.form-group  {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    color:#fff;
+}
+.search.form-group .form-control {
+    font-weight: 600;
+    background-image: linear-gradient(60deg, #fff, #fff), linear-gradient(#fff, #fff) !important;
+}
+.search.form-group.is-focused .form-control {
+    background-image: linear-gradient(60deg, #fff, #fff), linear-gradient(#fff, #fff) !important;
+}
+.search.form-group.is-focused .form-control .material-input:after {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+/*                 Login                */
+
+html[data-color="purple"] .lt-register-btn,.lt-register-btn:hover, .lt-register-btn:focus {
+    background: rgb(148, 34, 116) !important;
+}
+html[data-color="blue"] .lt-register-btn,.lt-register-btn:hover, .lt-register-btn:focus {
+    background: rgb(0, 188, 212) !important;
+}
+html[data-color="green"] .lt-register-btn ,.lt-register-btn:hover, .lt-register-btn:focus{
+    background: rgb(76, 175, 80) !important;
+}
+html[data-color="green-blue"] .lt-register-btn ,.lt-register-btn:hover, .lt-register-btn:focus{
+    background: rgb(0, 162, 147) !important;
+}
+html[data-color="dark-green"] .lt-register-btn ,.lt-register-btn:hover, .lt-register-btn:focus{
+    background: rgb(0, 100, 0) !important;
+}
+html[data-color="orange"] .lt-register-btn,.lt-register-btn:hover, .lt-register-btn:focus {
+    background: rgb(255, 152, 0) !important;
+}
+html[data-color="red"] .lt-register-btn,.lt-register-btn:hover, .lt-register-btn:focus {
+    background: rgb(244, 67, 54) !important;
+}
+html[data-color="brown"] .lt-register-btn,.lt-register-btn:hover, .lt-register-btn:focus {
+    background: rgb(219, 108, 0) !important;
+}
+html[data-color="dark-blue"] .lt-register-btn,.lt-register-btn:hover, .lt-register-btn:focus {
+    background: rgb(75, 100, 175) !important;
+}
+
+html[data-color="purple"] .mdl-textfield__label:after {
+    background-color: rgb(148, 34, 116);
+}
+html[data-color="blue"] .mdl-textfield__label:after {
+    background-color: rgb(0, 188, 212);
+}
+html[data-color="green"] .mdl-textfield__label:after {
+    background-color: rgb(76, 175, 80);
+}
+html[data-color="green-blue"] .mdl-textfield__label:after {
+    background-color: rgb(0, 162, 147);
+}
+html[data-color="dark-green"] .mdl-textfield__label:after {
+    background-color: rgb(0, 100, 0);
+}
+html[data-color="orange"] .mdl-textfield__label:after {
+    background-color:rgb(255, 152, 0);
+}
+html[data-color="red"] .mdl-textfield__label:after {
+    background-color: rgb(244, 67, 54);
+}
+html[data-color="brown"] .mdl-textfield__label:after {
+    background-color: rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] .mdl-textfield__label:after {
+    background-color: rgb(75, 100, 175);
+}
+
+html[data-color="purple"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(148, 34, 116);
+}
+html[data-color="blue"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(0, 188, 212);
+}
+html[data-color="green"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(76, 175, 80);
+}
+html[data-color="green-blue"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(0, 162, 147);
+}
+html[data-color="dark-green"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(0, 100, 0);
+}
+html[data-color="orange"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color:rgb(255, 152, 0);
+}
+html[data-color="red"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(244, 67, 54);
+}
+html[data-color="brown"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: rgb(75, 100, 175);
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+html[data-color="purple"] .pagination > li > a,html[data-color="purple"] .pagination > li > span,html[data-color="purple"] .pagination>li>a:focus,html[data-color="purple"] .pagination>li>a:hover,html[data-color="purple"] .pagination>li>span:hover,html[data-color="purple"] .pagination>li>span:focus
+{
+    color: rgb(148, 34, 116);
+}
+html[data-color="blue"] .pagination > li > a,html[data-color="blue"] .pagination > li > span,html[data-color="blue"] .pagination>li>a:focus,html[data-color="blue"] .pagination>li>a:hover,html[data-color="blue"] .pagination>li>span:hover,html[data-color="blue"] .pagination>li>span:focus
+{
+    color: rgb(0, 188, 212);
+}
+html[data-color="green"] .pagination > li > a,html[data-color="green"] .pagination > li > span,html[data-color="green"] .pagination>li>a:focus,html[data-color="green"] .pagination>li>a:hover,html[data-color="green"] .pagination>li>span:hover,html[data-color="green"] .pagination>li>span:focus
+{
+    color: rgb(76, 175, 80);
+}
+html[data-color="green-blue"] .pagination > li > a,html[data-color="green-blue"] .pagination > li > span,html[data-color="green-blue"] .pagination>li>a:focus,html[data-color="green-blue"] .pagination>li>a:hover,html[data-color="green-blue"] .pagination>li>span:hover,html[data-color="green-blue"] .pagination>li>span:focus
+{
+    color: rgb(0, 162, 147);
+}
+html[data-color="dark-green"] .pagination > li > a,html[data-color="dark-green"] .pagination > li > span,html[data-color="dark-green"] .pagination>li>a:focus,html[data-color="dark-green"] .pagination>li>a:hover,html[data-color="dark-green"] .pagination>li>span:hover,html[data-color="dark-green"] .pagination>li>span:focus
+{
+    color: rgb(0, 100, 0);
+}
+html[data-color="orange"] .pagination > li > a,html[data-color="orange"] .pagination > li > span,html[data-color="orange"] .pagination>li>a:focus,html[data-color="orange"] .pagination>li>a:hover,html[data-color="orange"] .pagination>li>span:hover,html[data-color="orange"] .pagination>li>span:focus
+{
+    color:rgb(255, 152, 0);
+}
+html[data-color="red"] .pagination > li > a,html[data-color="red"] .pagination > li > span,html[data-color="red"] .pagination>li>a:focus,html[data-color="red"] .pagination>li>a:hover,html[data-color="red"] .pagination>li>span:hover,html[data-color="red"] .pagination>li>span:focus
+{
+    color: rgb(244, 67, 54);
+}
+html[data-color="brown"] .pagination > li > a,html[data-color="brown"] .pagination > li > span,html[data-color="brown"] .pagination>li>a:focus,html[data-color="brown"] .pagination>li>a:hover,html[data-color="brown"] .pagination>li>span:hover,html[data-color="brown"] .pagination>li>span:focus{
+    color: rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] .pagination > li > a,html[data-color="dark-blue"] .pagination > li > span,html[data-color="dark-blue"] .pagination>li>a:focus,html[data-color="dark-blue"] .pagination>li>a:hover,html[data-color="dark-blue"] .pagination>li>span:hover,html[data-color="dark-blue"] .pagination>li>span:focus
+{
+    color: rgb(75, 100, 175);
+}
+html[data-color="purple"] .pagination>.active>a,html[data-color="purple"] .pagination>.active>a:hover,html[data-color="purple"] .pagination>.active>a:focus,html[data-color="purple"] .pagination>.active>span:focus,html[data-color="purple"] .pagination>.active>span:hover{
+    background-color: rgb(148, 34, 116);
+    border-color:rgb(148, 34, 116);
+}
+html[data-color="blue"] .pagination>.active>a,html[data-color="blue"] .pagination>.active>a:hover,html[data-color="blue"] .pagination>.active>a:focus,html[data-color="blue"] .pagination>.active>span:focus,html[data-color="blue"] .pagination>.active>span:hover{
+    background-color: rgb(0, 188, 212);
+    border-color:rgb(0, 188, 212);
+}
+html[data-color="green"] .pagination>.active>a,html[data-color="green"] .pagination>.active>a:hover,html[data-color="green"] .pagination>.active>a:focus,html[data-color="green"] .pagination>.active>span:focus,html[data-color="green"] .pagination>.active>span:hover{
+    background-color: rgb(76, 175, 80);
+    border-color:rgb(76, 175, 80);
+}
+html[data-color="green-blue"] .pagination>.active>a,html[data-color="green-blue"] .pagination>.active>a:hover,html[data-color="green-blue"] .pagination>.active>a:focus,html[data-color="green-blue"] .pagination>.active>span:focus,html[data-color="green-blue"] .pagination>.active>span:hover{
+    background-color: rgb(0, 162, 147);
+    border-color:rgb(0, 162, 147);
+}
+html[data-color="dark-green"] .pagination>.active>a,html[data-color="dark-green"] .pagination>.active>a:hover,html[data-color="dark-green"] .pagination>.active>a:focus,html[data-color="dark-green"] .pagination>.active>span:focus,html[data-color="dark-green"] .pagination>.active>span:hover{
+    background-color: rgb(0, 100, 0);
+    border-color:rgb(0, 100, 0);
+}
+html[data-color="orange"] .pagination>.active>a,html[data-color="orange"] .pagination>.active>a:hover,html[data-color="orange"] .pagination>.active>a:focus,html[data-color="orange"] .pagination>.active>span:focus,html[data-color="orange"] .pagination>.active>span:hover{
+    background-color: rgb(255, 152, 0);
+    border-color:rgb(255, 152, 0);
+}
+html[data-color="red"] .pagination>.active>a,html[data-color="red"] .pagination>.active>a:hover,html[data-color="red"] .pagination>.active>a:focus,html[data-color="red"] .pagination>.active>span:focus,html[data-color="red"] .pagination>.active>span:hover{
+    background-color: rgb(244, 67, 54);
+    border-color:rgb(244, 67, 54);
+}
+html[data-color="brown"] .pagination>.active>a,html[data-color="brown"] .pagination>.active>a:hover,html[data-color="brown"] .pagination>.active>a:focus,html[data-color="brown"] .pagination>.active>span:focus,html[data-color="brown"] .pagination>.active>span:hover {
+    background-color: rgb(219, 108, 0);
+    border-color:rgb(219, 108, 0);
+}
+html[data-color="dark-blue"] .pagination>.active>a,html[data-color="dark-blue"] .pagination>.active>a:hover,html[data-color="dark-blue"] .pagination>.active>a:focus,html[data-color="dark-blue"] .pagination>.active>span:focus,html[data-color="dark-blue"] .pagination>.active>span:hover{
+    background-color: rgb(75, 100, 175);
+    border-color:rgb(75, 100, 175);
+}
+
+
+
+
+
+
+
+
+
+
+html[data-color="purple"] li.active .badge-primary {
+    color: rgb(148, 34, 116);
+    background-color: #fff !important;
+}
+html[data-color="blue"] li.active .badge-primary {
+    color: rgb(0, 188, 212);
+    background-color: #fff !important;
+}
+html[data-color="green"] li.active .badge-primary {
+    color: rgb(76, 175, 80);
+    background-color: #fff !important;
+}
+html[data-color="green-blue"] li.active .badge-primary {
+    color: rgb(0, 162, 147);
+    background-color: #fff !important;
+}
+html[data-color="dark-green"] li.active .badge-primary {
+    color: rgb(0, 100, 0);
+    background-color: #fff !important;
+}
+html[data-color="orange"] li.active .badge-primary {
+    color:rgb(255, 152, 0);
+    background-color: #fff !important;
+}
+html[data-color="red"] li.active .badge-primary {
+    color: rgb(244, 67, 54);
+    background-color: #fff !important;
+}
+html[data-color="brown"] li.active .badge-primary {
+    color: rgb(219, 108, 0);
+    background-color: #fff !important;
+}
+html[data-color="dark-blue"] li.active .badge-primary {
+    color: rgb(75, 100, 175);
+    background-color: #fff !important;
+}
+html[data-color="purple"] .badge-primary {
+    color: #fff;
+    background-color: rgb(148, 34, 116) !important;
+}
+html[data-color="blue"] .badge-primary {
+    color: #fff;
+    background-color: rgb(0, 188, 212) !important;
+}
+html[data-color="green"] .badge-primary {
+    color: #fff;
+    background-color: rgb(76, 175, 80) !important;
+}
+html[data-color="green-blue"] .badge-primary {
+    color: #fff;
+    background-color: rgb(0, 162, 147) !important;
+}
+html[data-color="dark-green"] .badge-primary {
+    color: #fff;
+    background-color: rgb(0, 100, 0) !important;
+}
+html[data-color="orange"] .badge-primary {
+    color:#fff;
+    background-color: rgb(255, 152, 0) !important;
+}
+html[data-color="red"] .badge-primary {
+    color: #fff;
+    background-color: rgb(244, 67, 54) !important;
+}
+html[data-color="brown"] .badge-primary {
+    color: #fff;
+    background-color: rgb(219, 108, 0) !important;
+}
+html[data-color="dark-blue"] .badge-primary {
+    color: #fff;
+    background-color: rgb(75, 100, 175) !important;
+}
+
+html[data-color="purple"] .card [data-background-color="purple"] {
+    background: linear-gradient(60deg, #952173, #952173);
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+html[data-color="blue"] .card [data-background-color="blue"] {
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+html[data-color="green"] .card [data-background-color="green"] {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+html[data-color="green-blue"] .card [data-background-color="green-blue"] {
+    background: linear-gradient(60deg, #00C7B7, #00A293);
+    box-shadow: 0 12px 20px -10px rgba(0, 162, 147, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 162, 147, 0.2);
+}
+html[data-color="dark-green"] .card [data-background-color="dark-green"] {
+    background: linear-gradient(60deg, #43a047,darkgreen);
+    box-shadow: 0 12px 20px -10px rgba(0, 100, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 100, 0, 0.2);
+}
+html[data-color="orange"] .card [data-background-color="orange"] {
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+html[data-color="red"] .card [data-background-color="red"] {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+html[data-color="brown"] .card [data-background-color="brown"] {
+    background: linear-gradient(60deg, #fb8c00, #DB6C00);
+    box-shadow: 0 12px 20px -10px rgba(219, 108, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(219, 108, 0, 0.2);
+}
+html[data-color="dark-blue"] .card [data-background-color="dark-blue"] {
+    background: linear-gradient(60deg, #517daf, #4B64AF);
+    box-shadow: 0 12px 20px -10px rgba(75, 100, 175, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(75, 100, 175, 0.2);
+}
+
+html[data-color="purple"] .sidebar[data-color="purple"] .nav li.active a, .off-canvas-sidebar[data-color="blue"] .nav li.active a {
+    background-color: #952173;
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+html[data-color="blue"] .sidebar[data-color="blue"] .nav li.active a, .off-canvas-sidebar[data-color="blue"] .nav li.active a {
+    background-color: #00bcd4;
+    box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+html[data-color="green"] .sidebar[data-color="green"] .nav li.active a, .off-canvas-sidebar[data-color="green"] .nav li.active a {
+    background-color: #4caf50;
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+html[data-color="green-blue"] .sidebar[data-color="green-blue"] .nav li.active a, .off-canvas-sidebar[data-color="green-blue"] .nav li.active a {
+    background-color: #00A293;
+    box-shadow: 0 12px 20px -10px rgba(0, 162, 147, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 162, 147, 0.2);
+}
+html[data-color="dark-green"] .sidebar[data-color="dark-green"] .nav li.active a, .off-canvas-sidebar[data-color="dark-green"] .nav li.active a {
+    background-color: darkgreen;
+    box-shadow: 0 12px 20px -10px rgba(0, 100, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 100, 0, 0.2);
+}
+html[data-color="orange"] .sidebar[data-color="orange"] .nav li.active a, .off-canvas-sidebar[data-color="orange"] .nav li.active a {
+    background-color: #ff9800;
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+html[data-color="red"] .sidebar[data-color="red"] .nav li.active a, .off-canvas-sidebar[data-color="red"] .nav li.active a {
+    background-color: #f44336;
+    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+html[data-color="brown"] .sidebar[data-color="brown"] .nav li.active a, .off-canvas-sidebar[data-color="brown"] .nav li.active a {
+    background-color: #DB6C00;
+    box-shadow: 0 12px 20px -10px rgba(219, 108, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(219, 108, 0, 0.2);
+}
+html[data-color="dark-blue"] .sidebar[data-color="dark-blue"] .nav li.active a, .off-canvas-sidebar[data-color="dark-blue"] .nav li.active a {
+    background-color: #4B64AF;
+    box-shadow: 0 12px 20px -10px rgba(75, 100, 175, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(75, 100, 175, 0.2);
+}
+/********************************************************************************************/
+html[data-color="purple"] .navbar .dropdown-menu li a:hover,html[data-color="purple"] .navbar .dropdown-menu li a:focus,html[data-color="purple"] .navbar .dropdown-menu li a:active,html[data-color="purple"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="purple"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="purple"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #952173;
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+html[data-color="blue"] .navbar .dropdown-menu li a:hover,html[data-color="blue"] .navbar .dropdown-menu li a:focus,html[data-color="blue"] .navbar .dropdown-menu li a:active,html[data-color="blue"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="blue"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="blue"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #00bcd4;
+    box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+html[data-color="green"] .navbar .dropdown-menu li a:hover,html[data-color="green"] .navbar .dropdown-menu li a:focus,html[data-color="green"] .navbar .dropdown-menu li a:active,html[data-color="green"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="green"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="green"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #4caf50;
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+html[data-color="green-blue"] .navbar .dropdown-menu li a:hover,html[data-color="green-blue"] .navbar .dropdown-menu li a:focus,html[data-color="green-blue"] .navbar .dropdown-menu li a:active,html[data-color="green-blue"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="green-blue"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="green-blue"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #00A293;
+    box-shadow: 0 12px 20px -10px rgba(0, 162, 147, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 162, 147, 0.2);
+}
+html[data-color="dark-green"] .navbar .dropdown-menu li a:hover,html[data-color="dark-green"] .navbar .dropdown-menu li a:focus,html[data-color="dark-green"] .navbar .dropdown-menu li a:active,html[data-color="dark-green"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="dark-green"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="dark-green"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: darkgreen;
+    box-shadow: 0 12px 20px -10px rgba(0, 100, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 100, 0, 0.2);
+}
+html[data-color="orange"] .navbar .dropdown-menu li a:hover,html[data-color="orange"] .navbar .dropdown-menu li a:focus,html[data-color="orange"] .navbar .dropdown-menu li a:active,html[data-color="orange"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="orange"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="orange"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #ff9800;
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+html[data-color="red"] .navbar .dropdown-menu li a:hover,html[data-color="red"] .navbar .dropdown-menu li a:focus,html[data-color="red"] .navbar .dropdown-menu li a:active,html[data-color="red"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="red"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="red"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #f44336;
+    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+html[data-color="brown"] .navbar .dropdown-menu li a:hover,html[data-color="brown"] .navbar .dropdown-menu li a:focus,html[data-color="brown"] .navbar .dropdown-menu li a:active,html[data-color="brown"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="brown"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="brown"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #DB6C00;
+    box-shadow: 0 12px 20px -10px rgba(219, 108, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(219, 108, 0, 0.2);
+}
+html[data-color="dark-blue"] .navbar .dropdown-menu li a:hover,html[data-color="dark-blue"] .navbar .dropdown-menu li a:focus,html[data-color="dark-blue"] .navbar .dropdown-menu li a:active,html[data-color="dark-blue"] .navbar.navbar-default .dropdown-menu li a:hover,html[data-color="dark-blue"] .navbar.navbar-default .dropdown-menu li a:focus,html[data-color="dark-blue"] .navbar.navbar-default .dropdown-menu li a:active
+{
+    background-color: #4B64AF;
+    box-shadow: 0 12px 20px -10px rgba(75, 100, 175, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(75, 100, 175, 0.2);
+}
