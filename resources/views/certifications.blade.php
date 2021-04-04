@@ -74,15 +74,13 @@
     <div class="row p-10 text-center" style="margin-top: 20px">
         @foreach($Objects as $Object)
             <div class="col-md-3 text-center">
-                <div class="card mb-3 mx-10 bg-white border-rounded box-shadow" style="cursor: pointer" @if($Object->is_passed != 'لم تجتاز'  && $Object->is_passed !=  'لم يجتاز') data-toggle="modal" data-target="#Certifications{{$Object->id}}" @endif>
+                <div class="card mb-3 mx-10 bg-white border-rounded box-shadow" style="cursor: pointer" data-toggle="modal" data-target="#Certifications{{$Object->id}}">
                     <div class="card-header btn btn-primary border-rounded" style="font-size: 18px;">{{$Object->category->name}}</div>
                     <div class="card-body">
-                        <h5 class="card-title"><small>{{__('من')}} {{$Object->period_from}}</small><br><small>{{__('الى')}} {{$Object->period_to}}</small></h5>
-                        <p class="card-text"><span class="text-primary">{{$Object->level}}</span> <span class="text-gray"> - </span> <span @if($Object->is_passed == 'لم تجتاز' || $Object->is_passed == 'لم يجتاز') class="text-danger" @else class="text-primary" @endif>{{$Object->is_passed}}</span></p>
+                        <br>
                     </div>
                 </div>
             </div>
-            @if($Object->is_passed != 'لم تجتاز' && $Object->is_passed != 'لم يجتاز')
             <div class="modal fade border-rounded" id="Certifications{{$Object->id}}" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
                 <div class="modal-dialog border-rounded modal-sm" role="document">
                     <div class="modal-content border-rounded">
@@ -98,7 +96,6 @@
                     </div>
                 </div>
             </div>
-            @endif
         @endforeach
     </div>
 </div>
