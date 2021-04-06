@@ -6,7 +6,7 @@
     }
 </style>
 <div style="background: url('{{asset($Objects['image'])}}') top center no-repeat;background-size: contain;width: 100%;height: 900px;position: relative">
-    <div style="padding-left:50px;padding-right: 300px;padding-top: 180px;text-align: center;position: relative">
+    <div style="padding-left:50px;padding-right: 300px;padding-top: 230px;text-align: center;position: relative">
         <p>{!! $Objects['line_one'] !!}</p>
         <p>
             <span style="color: red;">{!! $Objects['name'] !!}</span>
