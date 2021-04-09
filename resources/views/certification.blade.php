@@ -82,10 +82,10 @@
                 <td style="width: 50%;height: 150px;padding-right: 75px;text-align: center">
 
                     <p style="text-align: center">
-                        <img src="{{asset($Objects['signature'])}}" style="width: 185px;height: 85px;padding-top: -35px;" alt="">
+                        <img src="{{asset($Objects['signature'])}}" style="width: 185px;height: 85px;padding-top: 0;" alt="">
                     </p>
                     <p style="text-align: center">
-                        <span style="color:#31706C;font-size: 25px;padding-top: -35px;">{!! $Objects['signature_name'] !!}</span><br>
+                        <span style="color:#31706C;font-size: 25px;padding-top: 0;">{!! $Objects['signature_name'] !!}</span><br>
                     </p>
                 </td>
             </tr>
