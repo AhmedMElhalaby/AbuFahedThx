@@ -44,42 +44,42 @@
         </p>
         <table style="width: 100%;padding-top: 25px">
             <tr>
-                <td style="width: 15%;">
+                <td style="width: 10%;">
                     <p>
                         <span> </span>
                     </p>
                 </td>
-                <td style="width: 35%;padding-right: 50px;text-align: center">
+                <td style="width: 30%;padding-right: 50px;text-align: center">
                     <p style="text-align: center">
                         <span>{!! $Objects['line_eight_1'] !!} </span>
                     </p>
                 </td>
-                <td style="width: 50%;padding-right: 75px;text-align: center">
+                <td style="width: 60%;padding-right: 75px;text-align: center">
                     <p style="text-align: center">
                         <span>{!! $Objects['line_eight_2'] !!} </span>
                     </p>
                 </td>
             </tr>
             <tr>
-                <td style="width: 15%;height: 150px;padding-right: 10px">
+                <td style="width: 10%;height: 150px;padding-right: 10px">
                     <p>
 
                     </p>
                     <p style="">
-                        <img src="{{asset('public/3aref.png')}}" style="width: 50px;height: 130px;padding-top: 0px" alt="">
+                        <img src="{{asset('public/3aref.png')}}" style="width: 50px;height: 130px;padding-top: 0" alt="">
                     </p>
 
                 </td>
-                <td style="width: 35%;height: 150px;padding-right: 50px;text-align: center">
+                <td style="width: 30%;height: 150px;padding-right: 50px;text-align: center">
                     <p style="text-align: center">
 
                     </p>
                     <p  style="text-align: center">
-                        <img src="{{asset($Objects['stamp'])}}" style="width: 130px;height: 130px;padding-top: 0px" alt="">
+                        <img src="{{asset($Objects['stamp'])}}" style="width: 130px;height: 130px;padding-top: 0" alt="">
                     </p>
 
                 </td>
-                <td style="width: 50%;height: 150px;padding-right: 75px;text-align: center">
+                <td style="width: 60%;height: 150px;padding-right: 75px;text-align: center">
 
                     <p style="text-align: center">
                         <img src="{{asset($Objects['signature'])}}" style="width: 185px;height: 85px;padding-top: 20px;" alt="">
