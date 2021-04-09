@@ -49,12 +49,12 @@
                         <span> </span>
                     </p>
                 </td>
-                <td style="width: 35%;padding-right: 50px">
+                <td style="width: 35%;padding-right: 50px;text-align: center">
                     <p>
                         <span>{!! $Objects['line_eight_1'] !!} </span>
                     </p>
                 </td>
-                <td style="width: 50%;padding-right: 75px">
+                <td style="width: 50%;padding-right: 75px;text-align: center">
                     <p>
                         <span>{!! $Objects['line_eight_2'] !!} </span>
                     </p>
@@ -70,7 +70,7 @@
                     </p>
 
                 </td>
-                <td style="width: 35%;height: 150px;padding-right: 50px">
+                <td style="width: 35%;height: 150px;padding-right: 50px;text-align: center">
                     <p>
 
                     </p>
@@ -79,7 +79,7 @@
                     </p>
 
                 </td>
-                <td style="width: 50%;height: 150px;padding-right: 75px">
+                <td style="width: 50%;height: 150px;padding-right: 75px;text-align: center">
                     <p>
                         <img src="{{asset($Objects['signature'])}}" style="width: 185px;height: 85px;padding-top: -55px;" alt="">
                     </p>
