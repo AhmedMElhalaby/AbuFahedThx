@@ -43,7 +43,7 @@ class HomeController extends Controller
         $Objects = Certification::find($id);
         $Objects = [
             'civil_registry'=>$Objects->civil_registry,
-            'name'=>$Objects->name,
+            'name'=>Master::replace_special_char($Objects->name),
             'category_name'=>$Objects->category->name,
             'signature'=>$Objects->category->signature,
             'image'=>$Objects->category->image,
